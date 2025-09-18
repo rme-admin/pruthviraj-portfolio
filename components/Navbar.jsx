@@ -154,7 +154,72 @@ const NavItems = ({ isNavOpen, setIsNavOpen }) => {
 									variants={itemVariants}
 									animate={isNavOpen ? "open" : "closed"}
 									custom={0.3}>
-									Projects
+									Research Projects
+								</motion.h2>
+							</div>
+						</Link>
+						<Link href="/technicalProjects">
+							<div
+								onClick={handleItemClick}
+								className="text-2xl font-bold text-white">
+								<motion.h2
+									className="text-white"
+									variants={itemVariants}
+									animate={isNavOpen ? "open" : "closed"}
+									custom={0.3}>
+									Technical Projects
+								</motion.h2>
+							</div>
+						</Link>
+						<Link href="/education">
+							<div
+								onClick={handleItemClick}
+								className="text-2xl font-bold text-white">
+								<motion.h2
+									className="text-white"
+									variants={itemVariants}
+									animate={isNavOpen ? "open" : "closed"}
+									custom={0.3}>
+									Education
+								</motion.h2>
+							</div>
+						</Link>
+						<Link href="/experience">
+							<div
+								onClick={handleItemClick}
+								className="text-2xl font-bold text-white">
+								<motion.h2
+									className="text-white"
+									variants={itemVariants}
+									animate={isNavOpen ? "open" : "closed"}
+									custom={0.3}>
+									Experience
+								</motion.h2>
+							</div>
+						</Link>
+						<Link href="/certifications">
+							<div
+								onClick={handleItemClick}
+								className="text-2xl font-bold text-white">
+								<motion.h2
+									className="text-white"
+									variants={itemVariants}
+									animate={isNavOpen ? "open" : "closed"}
+									custom={0.3}>
+									Certifications
+								</motion.h2>
+							</div>
+						</Link>
+						<Link href="/awards">
+							<div
+								onClick={handleItemClick}
+								className="text-2xl font-bold text-white">
+								<motion.h2
+									className="text-white"
+									variants={itemVariants}
+									animate={isNavOpen ? "open" : "closed"}
+									custom={0.3}>
+									Awards and Honors
 								</motion.h2>
 							</div>
 						</Link>

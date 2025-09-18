@@ -5,7 +5,17 @@ import {
 	faUser,
 	faFolderOpen,
 	faEnvelope,
+	faSearch,
+	faBook,
+	faLaptop,
+	faPen, 
+	faCertificate,
 } from "@fortawesome/free-solid-svg-icons";
+import { faAward } from "@fortawesome/free-solid-svg-icons";
+import { faHatWizard } from "@fortawesome/free-solid-svg-icons";
+import { faGraduationCap } from "@fortawesome/free-solid-svg-icons";
+import { faBriefcase } from "@fortawesome/free-solid-svg-icons";
+import { faScroll } from "@fortawesome/free-solid-svg-icons";
 
 
 const Sidebar = () => {
@@ -43,6 +53,51 @@ const Sidebar = () => {
 						/>
 					</button>
 				</li>
+
+				<li data-menuanchor="technicalProjects">
+					<button onClick={() => handleMoveToSection(3)}> {/* the section has to be changes from 3 to other value */}
+						<FontAwesomeIcon
+							icon={faSearch}
+							className="text-xl"
+						/>
+					</button>
+				</li>
+				<li data-menuanchor="education">
+					<button onClick={() => handleMoveToSection(3)}>
+						<FontAwesomeIcon
+							icon={faGraduationCap}
+							className="text-xl"
+						/>
+					</button>
+				</li>
+
+				<li data-menuanchor="experience">
+					<button onClick={() => handleMoveToSection(3)}>
+						<FontAwesomeIcon
+							icon={faBriefcase}
+							className="text-xl"
+						/>
+					</button>
+				</li>
+
+				<li data-menuanchor="certifications">
+					<button onClick={() => handleMoveToSection(3)}>
+						<FontAwesomeIcon
+							icon={faScroll}
+							className="text-xl"
+						/>
+					</button>
+				</li>
+
+				<li data-menuanchor="awardsAndHonors">
+					<button onClick={() => handleMoveToSection(3)}>
+						<FontAwesomeIcon
+							icon={faAward}
+							className="text-xl"
+						/>
+					</button>
+				</li>
+
 				<li data-menuanchor="contact">
 					<button onClick={() => handleMoveToSection(4)}>
 						<FontAwesomeIcon

@@ -1,13 +1,13 @@
 {
-  "name": "alvalen-portfolio-website",
+  "name": "pruthviraj-portfolio",
   "author": {
-    "name": "Alvalen Shafelbilyunazra",
-    "email": "alvalen.shafel04@gmail.com",
-    "url": "https://alvalens.my.id"
+    "name": "Pruthviraj B",
+    "email": "pruthviraj@rme.org.in",
+    "url": "pruthviraj.rme.org.in"
   },
   "license": "GPL-3.0",
-  "copyright": "Copyright (C) 2025 Alvalen Shafelbilyunazra",
-  "version": "1.0.0",
+  "copyright": "Copyright (C) 2025 RME",
+  "version": "2.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",

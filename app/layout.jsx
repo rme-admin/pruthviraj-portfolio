@@ -9,42 +9,42 @@ import Chat from "@/components/Chat";
 import ClientTopProgressBar from "@/components/ClientTopProgressBar";
 
 export const metadata = {
-    title: "Alvalens | Portofolio",
+    title: "Pruthviraj B | Resume & Portfolio",
 
     description:
-		"My name is Alvalens, I'm a web developer and I'm passionate about it. I'm currently studying at Universitas Negeri Malang.",
+		"My name is Pruthviraj B, I'm a Master's Student. I'm currently studying at Manipal Institute of Technology, Manipal.",
 
-    author: "Alvalen Shafelbilyunazra",
-    siteUrl: "https://www.alvalens.my.id",
-    applicationName: "Alvalens",
+    author: "Pruthviraj B",
+    siteUrl: "https://pruthviraj.rme.org.in/",
+    applicationName: "Pruthviraj B",
 
     keywords: [
-		"alvalens",
-		"alvalen",
-		"alvalen shafel",
-		"shafel",
-		"alvalen shafelbilyunazra",
-		"alvalen shafel bilyunazra",
-		"bloodfallen",
-		"alvalen porto",
-		"alvalen um",
+		"pruthviraj",
+		"pruthvirajb",
+		"pruthviraj b",
+		"research made easy",
+		"pyxis",
+		"pruthviraj gowda",
+		"prithviraj",
+		"pruthvi",
+		"pruthvirajs"
 	],
 
     openGraph: {
 		type: "website",
-		url: "https://www.alvalens.my.id",
-		title: "Alvalens | Portofolio",
-		site_name: "Alvalens | Portofolio",
-		description: "My name is Alvalens, This is my portofolio website.",
+		url: "https://pruthviraj.rme.org.in",
+		title: "Pruthviraj B | Portofolio",
+		site_name: "Pruthvira B | Portofolio",
+		description: "My name is Pruthviraj B, This is my portofolio website.",
 		width: 1200,
 		height: 630,
 		images: [
 			{
-				url: "/og-image-rev.png",
-				alt: "Alvalens Portofolio",
+				url: "/og-image-rev.png", //this has to be replaces by rme logo
+				alt: "Pruthviraj Portofolio",
 			},
 		],
-		site_name: "Alvalens | Portofolio",
+		site_name: "Pruthviraj B | Portofolio",
 	}
 };
 
